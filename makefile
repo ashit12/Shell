@@ -1,0 +1,2 @@
+shell : main.c built-in.c clock.c ls.c pinfo.c remindme.c fore-back-proc.c redirect.c env.c jobs.c fg-bg.c
+	gcc -o shell main.c built-in.c clock.c ls.c pinfo.c remindme.c fore-back-proc.c redirect.c env.c jobs.c fg-bg.c
